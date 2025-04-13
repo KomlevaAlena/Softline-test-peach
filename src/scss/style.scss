@@ -12,6 +12,8 @@
 @use './blocks/list';
 @use './blocks/header';
 @use './blocks/main-nav-list';
+@use './blocks/main-container';
+@use './blocks/hero';
 
 html {
     background-color: pink;

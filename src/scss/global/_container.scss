@@ -2,14 +2,12 @@
   min-width: 290px;
   max-width: 1250px;
   margin: 0 auto;
-  padding: 0 20px;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding: 0 0 0 0;
   width: 1250px;
 
   // планшетная версия — 768px - 1365px;
 
-  // @include vp-1249 {
+  // @include vp-1249 { 
   //   padding: 0 45px;
   //   width: 768px;
   // }
