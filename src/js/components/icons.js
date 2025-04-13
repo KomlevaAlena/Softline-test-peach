@@ -1,9 +1,11 @@
 import BirthdayIcon from '../../icons/birthday.svg';
 import LogoIcon from '../../icons/soft-line-logo.svg';
+import FilterArrow from '../../icons/filter-arrow.svg';
 
 const Icons = {
     birthday: BirthdayIcon,
-    logoIcon: LogoIcon
+    logoIcon: LogoIcon,
+    filterArrow: FilterArrow
 };
 
 document.querySelectorAll('[iconName]').forEach(iconElement => {

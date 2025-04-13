@@ -10,10 +10,12 @@
 
 @use './blocks/title';
 @use './blocks/list';
+@use './blocks/button';
 @use './blocks/header';
 @use './blocks/main-nav-list';
 @use './blocks/main-container';
 @use './blocks/hero';
+@use './blocks/map';
 
 html {
     background-color: pink;
