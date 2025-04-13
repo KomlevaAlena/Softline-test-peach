@@ -36,47 +36,95 @@
             <h1 class="hero__title title">Softline</h1>
             <p class="hero__text">Ведущий поставщик IT-решений и сервисов.* Мы предлагаем комплексные IT-решения, облака, программное и аппаратное обеспечение, решения по цифровой трансформации и кибербезопасности, а также широкий спектр IT-услуг.</p>
           </div>
-          <div class="hero__map map">
+          <div class="hero__map map" data-tabs="parent">
             <div class="map__wrapper">
               <button class="map__button button" type="button">
                 <span>Офисы Softline</span>
                 <div iconName="filterArrow"></div>
               </button>
-              <ul class="map__list list">
+              <ul class="map__list list" data-tabs="controls">
                 <li class="map__item">
-                  <button class="map__button button is-active" type="button">Все</button>
+                  <button class="map__button button is-active" type="button" data-tabs="control">Все</button>
                 </li>
                 <li class="map__item">
-                  <button class="map__button button" type="button">Москва</button>
+                  <button class="map__button button" type="button" data-tabs="control">Москва</button>
                 </li>
                 <li class="map__item">
-                  <button class="map__button button" type="button">Центр</button>
+                  <button class="map__button button" type="button" data-tabs="control">Центр</button>
                 </li>
                 <li class="map__item">
-                  <button class="map__button button" type="button">Северо-Запад</button>
+                  <button class="map__button button" type="button" data-tabs="control">Северо-Запад</button>
                 </li>
                 <li class="map__item">
-                  <button class="map__button button" type="button">Юг</button>
+                  <button class="map__button button" type="button" data-tabs="control">Юг</button>
                 </li>
                 <li class="map__item">
-                  <button class="map__button button" type="button">Волга</button>
+                  <button class="map__button button" type="button" data-tabs="control">Волга</button>
                 </li>
                 <li class="map__item">
-                  <button class="map__button button" type="button">Урал</button>
+                  <button class="map__button button" type="button" data-tabs="control">Урал</button>
                 </li>
                 <li class="map__item">
-                  <button class="map__button button" type="button">Сибирь</button>
+                  <button class="map__button button" type="button" data-tabs="control">Сибирь</button>
                 </li>
                 <li class="map__item">
-                  <button class="map__button button" type="button">Дальний восток</button>
+                  <button class="map__button button" type="button" data-tabs="control">Дальний восток</button>
                 </li>
               </ul>
             </div>
-            <div class="map__wrapper">
-              <div class="map__image">
+            <div class="map__wrapper" data-tabs="content">
+              <div class="map__image" data-tabs="element">
                 <picture>
-                  <source media="(max-width: 768px)" srcset="public/images/map.png 1x, public/images/map-2x.png 2x" width="862" height="446" type="image/webp">
-                  <img src="public/images/map.png" srcset="public/images/map-2x.png" width="1190" height="604" alt="Карта России.">
+                  <source media="(max-width: 768px)" srcset="public/images/map-all-1x.webp 1x, public/images/map-all-2x.webp 2x" width="862" height="446" type="image/webp">
+                  <img src="public/images/map-all-1x.webp" srcset="public/images/map-all-2x.webp" width="1190" height="604" alt="Карта России.">
+                </picture>
+              </div>
+              <div class="map__image" data-tabs="element">
+                <picture>
+                  <source media="(max-width: 768px)" srcset="public/images/map-moscow-1x.webp 1x, public/images/map-moscow-2x.webp 2x" width="862" height="446" type="image/webp">
+                  <img src="public/images/map-moscow-1x.webp" srcset="public/images/map-moscow-2x.webp" width="1190" height="604" alt="Карта России.">
+                </picture>
+              </div>
+              <div class="map__image" data-tabs="element">
+                <picture>
+                  <source media="(max-width: 768px)" srcset="public/images/map-center-1x.webp 1x, public/images/map-center-2x.webp 2x" width="862" height="446" type="image/webp">
+                  <img src="public/images/map-center-1x.webp" srcset="public/images/map-center-2x.webp" width="1190" height="604" alt="Карта России.">
+                </picture>
+              </div>
+              <div class="map__image" data-tabs="element">
+                <picture>
+                  <source media="(max-width: 768px)" srcset="public/images/map-n-w-1x.webp 1x, public/images/map-n-w-1x.webp 2x" width="862" height="446" type="image/webp">
+                  <img src="public/images/map-n-w-1x.webp" srcset="public/images/map-n-w-2x.webp" width="1190" height="604" alt="Карта России.">
+                </picture>
+              </div>
+              <div class="map__image" data-tabs="element">
+                <picture>
+                  <source media="(max-width: 768px)" srcset="public/images/map-south-1x.webp 1x, public/images/map-south-2x.webp 2x" width="862" height="446" type="image/webp">
+                  <img src="public/images/map-south-1x.webp" srcset="public/images/map-south-2x.webp" width="1190" height="604" alt="Карта России.">
+                </picture>
+              </div>
+              <div class="map__image" data-tabs="element">
+                <picture>
+                  <source media="(max-width: 768px)" srcset="public/images/map-volga-1x.webp 1x, public/images/map-volga-2x.webp 2x" width="862" height="446" type="image/webp">
+                  <img src="public/images/map-volga-1x.webp" srcset="public/images/map-volga-2x.webp" width="1190" height="604" alt="Карта России.">
+                </picture>
+              </div>
+              <div class="map__image" data-tabs="element">
+                <picture>
+                  <source media="(max-width: 768px)" srcset="public/images/map-ural-1x.webp 1x, public/images/map-ural-2x.webp 2x" width="862" height="446" type="image/webp">
+                  <img src="public/images/map-ural-1x.webp" srcset="public/images/map-ural-2x.webp" width="1190" height="604" alt="Карта России.">
+                </picture>
+              </div>
+              <div class="map__image" data-tabs="element">
+                <picture>
+                  <source media="(max-width: 768px)" srcset="public/images/map-siberia-1x.webp 1x, public/images/map-siberia-2x.webp 2x" width="862" height="446" type="image/webp">
+                  <img src="public/images/map-siberia-1x.webp" srcset="public/images/map-siberia-2x.webp" width="1190" height="604" alt="Карта России.">
+                </picture>
+              </div>
+              <div class="map__image" data-tabs="element">
+                <picture>
+                  <source media="(max-width: 768px)" srcset="public/images/map-far-east-1x.webp 1x, public/images/map-far-east-2x.webp 2x" width="862" height="446" type="image/webp">
+                  <img src="public/images/map-far-east-1x.webp" srcset="public/images/map-far-east-2x.webp" width="1190" height="604" alt="Карта России.">
                 </picture>
               </div>
             </div>

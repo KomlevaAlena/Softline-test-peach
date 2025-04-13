@@ -46,3 +46,17 @@
     margin: 0;
     gap: 30px;
 }
+
+.map__image {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+
+    picture {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        width: 1190px;
+        height: 100%;
+    }
+}
