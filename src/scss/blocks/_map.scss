@@ -8,6 +8,11 @@
         margin: 0 auto;
         box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.06);
     }
+
+    &:last-of-type {
+        max-width: 1190px;
+        margin: 90px auto 100px;
+    }
 }
 
 .map__button {
@@ -59,4 +64,8 @@
         width: 1190px;
         height: 100%;
     }
+}
+
+.map__image.is_active {
+    margin: 0 auto;
 }
