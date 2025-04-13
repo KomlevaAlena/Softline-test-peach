@@ -1,0 +1,42 @@
+.accordion__title {
+  display: block;
+  margin: 0 auto 0 0;
+  padding: 28px 20px 28px 20px;
+  width: max-content;
+  font-family: "ProximaNovaCond-Semibold", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.accordion__text {
+  width: 480px;
+  margin: 0 auto auto 0;
+  padding: 28px 20px 28px 20px;
+  font-family: "ProximaNovaCond-Regular", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.accordion__element {
+  min-height: 260px;
+  position: relative;
+  overflow: hidden;
+
+  .accordion__content {
+      min-height: 260px;
+      color: #ffffff;
+      background-color: rgba(45, 54, 83, 0.6);
+      transform: translateY(73%);
+    }
+
+  &:hover {
+      .accordion__content {
+        transform: translateY(0%);
+        transition: transform 0.3s ease, max-height 0.3s ease;
+      }
+    }
+}

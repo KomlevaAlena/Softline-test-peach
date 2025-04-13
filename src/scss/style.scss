@@ -8,6 +8,7 @@
 @use './vendor/swiper';
 @use './vendor/swiper-vars';
 @use './vendor/data-tabs';
+@use './vendor/accordion';
 
 
 @use './blocks/title';
@@ -18,6 +19,8 @@
 @use './blocks/main-container';
 @use './blocks/hero';
 @use './blocks/map';
+@use './blocks/mission';
+@use './blocks/buisness';
 
 html {
     background-color: pink;

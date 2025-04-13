@@ -1,0 +1,73 @@
+.buisness {
+    width: 1250px;
+    margin: 0 auto;
+    padding: 100px 0 0 0;
+}
+
+h2.buisness__title {
+    margin: 0 auto;
+    padding: 0 0 55px 0;
+    width: max-content;
+}
+
+.buisness__accordion {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.buisness__accordion-list {
+    width: 1250px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 22px;
+}
+
+.buisness__item {
+    background-repeat: no-repeat;
+    background-size: auto;
+  
+    &:nth-child(6n+1) {
+      background-image: image-set(
+        url("../public/images/accord-img-1-1x.webp") 1x,
+        url("../public/images/accord-img-1-2x.webp") 2x
+      );
+    }
+  
+    &:nth-child(6n+2) {
+      background-image: image-set(
+        url("../public/images/accord-img-2-1x.webp") 1x,
+        url("../public/images/accord-img-2-2x.webp") 2x
+      );
+    }
+  
+    &:nth-child(6n+3) {
+      background-image: image-set(
+        url("../public/images/accord-img-3-1x.webp") 1x,
+        url("../public/images/accord-img-3-2x.webp") 2x
+      );
+    }
+  
+    &:nth-child(6n+4) {
+      background-image: image-set(
+        url("../public/images/accord-img-4-1x.webp") 1x,
+        url("../public/images/accord-img-4-2x.webp") 2x
+      );
+    }
+  
+    &:nth-child(6n+5) {
+      background-image: image-set(
+        url("../public/images/accord-img-5-1x.webp") 1x,
+        url("../public/images/accord-img-5-2x.webp") 2x
+      );
+    }
+  
+    &:nth-child(6n+6) {
+      background-image: image-set(
+        url("../public/images/accord-img-6-1x.webp") 1x,
+        url("../public/images/accord-img-6-2x.webp") 2x
+      );
+    }
+  }
+
+  
