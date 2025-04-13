@@ -12,4 +12,12 @@
     max-width: 1250px;
     padding: 32px 70px 33px 70px;
     margin: 0 auto;
+    border-bottom: 1px solid #d9d9d9;
+  }
+
+  .main-nav__logo-link div{
+    svg {
+        width: 125px;
+        height: 25px;
+    }
   }

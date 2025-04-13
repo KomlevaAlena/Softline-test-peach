@@ -9,7 +9,9 @@
 @use './vendor/swiper-vars';
 
 @use './blocks/title';
-@use './blocks/header.scss';
+@use './blocks/list';
+@use './blocks/header';
+@use './blocks/main-nav-list';
 
 html {
     background-color: pink;

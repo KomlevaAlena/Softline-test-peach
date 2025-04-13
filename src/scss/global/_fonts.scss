@@ -24,8 +24,16 @@
 
 @font-face {
   font-family: "ProximaNovaCond-Semibold";
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
   src: url("../public/fonts/ProximaNovaCond-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "ProximaNovaCond-Bold";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("../public/fonts/ProximaNovaCond-Bold.woff2") format("woff2");
 }
