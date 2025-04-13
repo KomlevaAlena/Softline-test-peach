@@ -1,0 +1,15 @@
+.main-header {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1250px;
+    padding: 32px 70px 33px 70px;
+    margin: 0 auto;
+  }

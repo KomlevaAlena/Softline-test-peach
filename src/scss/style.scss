@@ -1,7 +1,16 @@
-@use "./global/normalize.scss";
-@use "./global/variables.scss";
-@use "./global/utils.scss";
-@use "./global/fonts.scss";
+@use './global/normalize';
+@use './global/variables' as *;
+@use './global/mixins' as *;
+@use './global/fonts';
+@use './global/utils';
+@use './global/container';
 
-@use "./vendor/swiper.scss";
-@use "./vendor/swiper-vars.scss";
+@use './vendor/swiper';
+@use './vendor/swiper-vars';
+
+@use './blocks/title';
+@use './blocks/header.scss';
+
+html {
+    background-color: pink;
+}
