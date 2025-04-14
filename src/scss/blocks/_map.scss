@@ -1,4 +1,6 @@
 .map__wrapper {
+    
+
     &:first-of-type {
         display: flex;
         flex-wrap: wrap;
@@ -12,6 +14,24 @@
     &:last-of-type {
         max-width: 1190px;
         margin: 90px auto 100px;
+    }
+
+    @media (max-width: 768px) {
+        max-width: 290px;
+        margin: 0 auto;
+        overflow-x: hidden;
+        overflow-y: auto;
+
+        &:first-of-type {
+            flex-direction: column;
+            width: 862px;
+            padding: 18px 5px 0 5px;
+        }
+
+        &:last-of-type {
+            width: 862px;
+            margin: 8px auto 0;
+        }
     }
 }
 
@@ -33,12 +53,22 @@
         line-height: 24px;
         color: #444444;
     }
+
+    @media (max-width: 768px) {
+        font-size: 20px;
+        line-height: 20px;
+    }
 }
 
 .map__button div {
     svg {
         width: 24px;
-        height: 10px;  
+        height: 10px; 
+        
+        @media (max-width: 768px) {
+            width: 20px;
+            height: 8px;
+        }
     }
 }
 
@@ -47,6 +77,11 @@
     border: 1px solid transparent;
     background-color: transparent;
     border-bottom: 3px solid transparent;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+        line-height: 16px;
+    }
 }
 
 .map__button,
@@ -88,6 +123,11 @@
     padding: 0;
     margin: 0;
     gap: 30px;
+
+    @media (max-width: 768px) {
+        justify-content: start;
+        gap: 16px;
+    }
 }
 
 .map__image {
