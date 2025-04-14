@@ -2,17 +2,35 @@
     width: 1250px;
     margin: 0 auto;
     padding: 100px 0 100px 0;
+
+    @media (max-width: 768px) {
+        width: 280px;
+        margin: 0 auto;
+        padding: 50px 0 50px 0;
+    }
 }
 
 h2.buisness__title {
     margin: 0 auto;
     padding: 0 0 55px 0;
     width: max-content;
+
+    @media (max-width: 768px) {
+      margin: 0 auto;
+      padding: 0 0 10px 0;
+      font-size: 28px;
+      line-height: 34px;
+  }
 }
 
 .buisness__accordion {
     width: 1250px;
     margin: 0 auto;
+
+    @media (max-width: 768px) {
+        width: 280px;
+        margin: 0 auto;
+    }
 }
 
 .buisness__accordion-list {
@@ -21,11 +39,21 @@ h2.buisness__title {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px 22px;
+
+    @media (max-width: 768px) {
+      width: 280px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+  }
 }
 
 .buisness__item {
+    width: 635px;
     background-repeat: no-repeat;
     background-size: auto;
+    overflow: hidden;
   
     &:nth-child(6n+1) {
       background-image: image-set(
@@ -67,6 +95,19 @@ h2.buisness__title {
         url("../public/images/accord-img-6-1x.webp") 1x,
         url("../public/images/accord-img-6-2x.webp") 2x
       );
+    }
+
+
+    @media (max-width: 768px) {
+      width: 280px;
+      height: 60px;
+      margin: 0 auto;
+
+      &:hover,
+      &:focus,
+      &:active {
+        min-height: 240px;
+      }
     }
   }
 
