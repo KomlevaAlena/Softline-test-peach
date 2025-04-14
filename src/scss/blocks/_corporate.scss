@@ -2,6 +2,11 @@
     width: 1110px;
     margin: 0 auto;
     padding: 0 0 0 0;
+
+    @media (max-width: 768px) {
+        width: 280px;
+        padding: 0 0 50px 0;
+    }
 }
 .corporate__wrapper--title {
     display: flex;
@@ -10,13 +15,23 @@
     width: 1110px;
     margin: 100px auto 50px auto;
     padding: 0 0 0 0;
+
+    @media (max-width: 768px) {
+        width: 280px;
+        margin: 50px auto 15px auto;
+    }
 }
 
-.corporate__title {
+h2.corporate__title {
     display: block;
     margin: 0;
     padding: 0 0 0 0;
     width: max-content;
+
+    @media (max-width: 768px) {
+        font-size: 28px;
+        line-height: 28px;
+    }
 }
 
 .slider__wrapper--buttons {
@@ -27,6 +42,10 @@
     margin: 0;
     padding: 0 0 0 0;
     gap: 20px;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 }
 
 .corporate__button  {
@@ -77,6 +96,10 @@ ol .corporate__list.swiper-wrapper {
 
     .swiper-pagination-bullet-active {
         background-color: #B01736;
+    }
+
+    @media (max-width: 768px) {
+        display: none;
     }
 }
 
