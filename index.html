@@ -251,18 +251,20 @@
           </div>
         </section>
         <section class="corporate">
-          <h2 class="corporate__title title">Корпоративная мобильная связь</h2>
-          <div class="slider corporate__slider">
-            <button class="slider__button slider__button--prev corporate__button corporate__button--prev" type="button">
-              <span class="visually-hidden">Предыдущий слайд</span>
-              <div iconName="birthday"></div>
-            </button>
-            <button class="slider__button slider__button--next corporate__button corporate__button--next" type="button">
-              <span class="visually-hidden">Следующий слайд</span>
-              <svg role="img"  viewBox="0 0 18 34" width="18" height="34" focusable="false">
-                <use href="/__spritemap#sprite-slider-arrow"></use>
-              </svg>
-            </button>
+          <div class="corporate__wrapper--title">
+            <h2 class="corporate__title title">Корпоративная жизнь</h2>
+            <div class="slider__wrapper--buttons">
+              <button class="slider__button slider__button--prev corporate__button corporate__button--prev" type="button">
+                <span class="visually-hidden">Предыдущий слайд</span>
+                <div iconName="sliderArrow"></div>
+              </button>
+              <button class="slider__button slider__button--next corporate__button corporate__button--next" type="button">
+                <span class="visually-hidden">Следующий слайд</span>
+                <div iconName="sliderArrow"></div>
+              </button>
+            </div>
+          </div>
+          <div class="corporate__slider slider">
             <div class="corporate__wrapper swiper">
               <ol class="corporate__list swiper-wrapper">
                 <li class="corporate-card swiper-slide" tabindex="0">
@@ -317,6 +319,7 @@
                 </li>
               </ol>
             </div>
+            <div class="swiper-pagination"></div>
           </div>
         </section>
       </main>

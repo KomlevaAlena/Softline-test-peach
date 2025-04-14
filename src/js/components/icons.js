@@ -7,6 +7,7 @@ import Sport from '../../icons/sport.svg';
 import Lti from '../../icons/lti.svg';
 import Technique from '../../icons/technique.svg';
 import Home from '../../icons/home.svg';
+import SliderArrow from '../../icons/slider-arrow.svg';
 
 const Icons = {
     birthday: BirthdayIcon,
@@ -17,7 +18,8 @@ const Icons = {
     sport: Sport,
     lti: Lti,
     technique: Technique,
-    home: Home
+    home: Home,
+    sliderArrow: SliderArrow
 };
 
 document.querySelectorAll('[iconName]').forEach(iconElement => {

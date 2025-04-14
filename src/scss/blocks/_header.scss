@@ -13,6 +13,12 @@
     padding: 32px 70px 33px 70px;
     margin: 0 auto;
     border: 1px solid #d9d9d9;
+
+    @media (max-width: 768px) {
+      max-width: 320px;
+      border: 1px solid transparent;
+      border-bottom: 1px solid #d9d9d9;
+    }
   }
 
   .main-nav__logo-link div{

@@ -52,7 +52,7 @@
 }
 .swiper-wrapper {
   position: relative;
-  width: 100%;
+  width: max-content;
   height: 100%;
   z-index: 1;
   display: flex;
@@ -73,11 +73,12 @@
 }
 .swiper-slide {
   flex-shrink: 0;
-  width: 100%;
+  width: max-content;
   height: 100%;
   position: relative;
   transition-property: transform;
   display: block;
+  margin-right: 0;
 }
 .swiper-slide-invisible-blank {
   visibility: hidden;

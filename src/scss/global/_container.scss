@@ -12,14 +12,17 @@
   //   width: 768px;
   // }
 
-  // мобильная версия — 320px - 767px;
-  // @include vp-767 {
-  //   padding: 0 15px;
-  //   width: 320px;
-  // }
+  //мобильная версия — 320px - 767px;
+  @media (max-width: 768px) {
+    width: 320px;
+  }
 }
 
 .main-container {
   position: relative;
   z-index: 1;
+}
+
+.wrapper--main {
+  margin: 0 auto;
 }
