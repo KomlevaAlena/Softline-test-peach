@@ -3,4 +3,14 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 20px;
+    margin: 0;
+
+    @media (max-width: 768px) {
+        gap: 10px;
+        flex-direction: row;
+        justify-content: start;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 16px 0 0 0;
+    }
 }

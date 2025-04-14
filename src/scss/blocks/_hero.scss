@@ -2,16 +2,27 @@
     width: 1250px;
     margin: 0 auto;
     padding: 79px 0 0 0;
+
+    @media (max-width: 768px) {
+        width: 320px;
+        margin: 0 auto;
+        padding: 27px 0 0 0;
+    }
 }
 
 .hero__discription {
     margin: 0 auto;
-    // padding: 0 70px 0 70px;
     width: 1250px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    @media (max-width: 768px) {
+        width: 320px;
+        margin: 0 auto;
+        padding: 50px 0 0 0;
+    }
 }
 
 .hero__title {
