@@ -15,7 +15,17 @@
         border-bottom: 1px solid #F0F0F0;
     }
     &:last-of-type {
-        margin: 70px auto 80px auto;
+        margin: 70px auto 0 auto;
+        padding: 0 0 80px 0;
+
+        .package__list {
+            margin: 0 auto;
+            width: 566px;
+        }
+
+        .package__title {
+            padding: 0 0 4px 0;
+        }
     }
 }
 
@@ -24,6 +34,19 @@
     margin: 0 auto;
     padding: 0 0 50px 0;
     display: block;
+}
+
+.package__description {
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    padding: 0 0 50px 0;
+    font-family: "ProximaNovaCond-Semibold", "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #B01736;
 }
 
 .package__list {
