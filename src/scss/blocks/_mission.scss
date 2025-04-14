@@ -11,8 +11,6 @@
     background-color: #A30C33;
     z-index: 1;
 
-    
-
     &::before {
         content: "";
         position: absolute;
@@ -38,6 +36,26 @@
         background-size: auto;
         z-index: 2;
     }
+
+    @media (max-width: 768px) {
+        width: 290px;
+        padding: 32px 0 32px 0;
+        &::before {
+            top: 11px;
+            right: -33px;
+            width: 142px;
+            height: 154px;
+            background-image: url("../public/images/right-pattern-mobile.svg");
+        }
+    
+        &::after {
+            top: 11px;
+            left: 0;
+            width: 142px;
+            height: 154px;
+            background-image: url("../public/images/left-pattern-mobile.svg");
+        }
+    }
 }
 
 h2.mission__title {
@@ -47,6 +65,12 @@ h2.mission__title {
     width: max-content;
     color: #ffffff;
     text-align: center;
+
+    @media (max-width: 768px) {
+        font-size: 28px;
+        line-height: 28px;
+        padding: 0 0 10px 0;
+    }
 }
 
 .mission__discription {
@@ -61,4 +85,11 @@ h2.mission__title {
     font-size: 32px;
     line-height: 48px;
     z-index: 3;
+
+    @media (max-width: 768px) {
+        width: 280px;
+        font-size: 16px;
+        line-height: 18px;
+        padding: 0 0 0 0;
+    }
 }
