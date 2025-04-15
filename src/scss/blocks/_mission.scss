@@ -18,7 +18,7 @@
         right: 0;
         width: 298px;
         height: 377px;
-        background-image: url("../public/images/right-pattern.svg");
+        background-image: url("/images/right-pattern.svg");
         background-repeat: no-repeat;
         background-size: auto;
         z-index: 2;
@@ -31,7 +31,7 @@
         left: 0;
         width: 298px;
         height: 377px;
-        background-image: url("../public/images/left-pattern.svg");
+        background-image: url("/images/left-pattern.svg");
         background-repeat: no-repeat;
         background-size: auto;
         z-index: 2;
@@ -45,7 +45,7 @@
             right: -33px;
             width: 142px;
             height: 154px;
-            background-image: url("../public/images/right-pattern-mobile.svg");
+            background-image: url("/images/right-pattern-mobile.svg");
         }
     
         &::after {
@@ -53,7 +53,7 @@
             left: 0;
             width: 142px;
             height: 154px;
-            background-image: url("../public/images/left-pattern-mobile.svg");
+            background-image: url("/images/left-pattern-mobile.svg");
         }
     }
 }
